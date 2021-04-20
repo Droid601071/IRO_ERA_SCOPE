@@ -1,0 +1,28 @@
+{
+  "name": "schedule",
+  "version": "1.0.0",
+  "description": "schedule for IRO ERA SCOPE",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllexKali/IRO_ERA_SCOPE.git"
+  },
+  "author": "Aleksander Naidyonov <naidynow.alexander@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllexKali/IRO_ERA_SCOPE/issues"
+  },
+  "homepage": "https://github.com/AllexKali/IRO_ERA_SCOPE#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
